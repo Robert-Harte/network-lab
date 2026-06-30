@@ -24,6 +24,8 @@ The network will contain some of the following:
 - **Simulator/hardware:** Packet Tracer
 
 ## Conventions
-- Hostnames: `LondonR1`, `LondonR2` for routers; `LondonSW1`, `LondonSW2` for switches.
+- Hostnames: `LondonR1`, `LondonR2` for routers; `LondonSWC1`, `LondonSWA1` for switches. Where SWC stands for Core switches, and SWA stands for Access switches.
+    - Naming convention is <Location><DeviceType><Branch>-<Core/Access><Num>, where <Branch> is optional.
+    - For end devices, such as PCs and Servers, they will have either a generic name e.g. PC0, PC1, or named after their function e.g. Server-DNS, Server-DHCP.
 - All passwords configured on each device will be set to **cisco**.
 - Update `addressing.md` and `changelog.md` whenever the topology changes.
