@@ -1,0 +1,6 @@
+! SW1 running-config
+! Paste output of `show running-config` here after each change session.
+! Reminder: lab-only passwords — do not commit real credentials.
+
+hostname SW1
+!
